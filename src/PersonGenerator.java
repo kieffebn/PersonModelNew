@@ -32,7 +32,7 @@ public class PersonGenerator {
             recs.add(LastName);
             Title = SafeInput.getNonZeroLenString(input, "Please enter person title");
             recs.add(Title);
-            YOB = SafeInput.getInt(input, "Please enter person age");
+            YOB = SafeInput.getInt(input, "Please enter person year of birth");
             recs.add(YOB.toString());
             people.add(String.valueOf(recs));
             cont = SafeInput.getNonZeroLenString(input, "More entries? Y/N");
